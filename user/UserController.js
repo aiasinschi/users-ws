@@ -6,7 +6,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 var User = require('./User');
 
 // CREATES A NEW USER
-router.post('/', function (req, res) {
+/*router.post('/', function (req, res) {
     User.create({
             username : req.body.username,
             password : req.body.password
@@ -15,7 +15,7 @@ router.post('/', function (req, res) {
             if (err) return res.status(500).send("There was a problem adding the information to the database.");
             res.status(200).send(user);
         });
-});
+});*/
 // RETURNS ALL THE USERS IN THE DATABASE
 router.get('/', function (req, res) {
     console.log('finding users...');
