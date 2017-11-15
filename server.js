@@ -1,3 +1,7 @@
+/*eslint no-undef: "error"*/
+/*eslint-env node*/
+/*eslint-disable no-console*/
+
 // server.js
 
 var app = require('./app');

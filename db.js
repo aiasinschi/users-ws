@@ -1,3 +1,7 @@
+/*eslint no-undef: "error"*/
+/*eslint-env node*/
+/*eslint-disable no-console*/
+
 // db.js
 var mongoose = require('mongoose');
 const mongoUser = process.env.MONGO_USER || '';
